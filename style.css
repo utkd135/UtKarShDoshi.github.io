@@ -1,0 +1,46 @@
+header {
+    background-color: #fffae2;
+    color: rgb(97, 53, 53);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content {
+    flex: 1;
+  }
+  
+  .header-title {
+    font-size: 2.4rem;
+    margin: 0;
+  }
+  
+  .header-subtitle {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  
+  .header-image {
+    max-width: 324px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(69, 229, 141, 0.1);
+    order: -1; 
+    transform: scale(1.2); /* Adjust the scale to zoom in */
+    object-fit: cover; /* Crop the image to cover the container */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+/* Add a new rule to change the font size for section titles */
+.section-title {
+  font-size: 1.8rem; /* Adjust the font size as needed */
+}
+
+/* Add a new rule to change the font size for block titles */
+.block-title {
+  font-size: 1.6rem; /* Adjust the font size as needed */
+}
+
+/* Add a new rule to change the font size for paragraphs */
+p {
+  font-size: 1.4rem; /* Adjust the font size as needed */
+}
